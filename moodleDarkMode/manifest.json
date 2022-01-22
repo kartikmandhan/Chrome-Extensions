@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "COEP Moodle Dark Mode",
+    "version": "0.1",
+    "description": "An Extension to change theme of COEP Moodle to Dark Mode.Developed by Kartik Mandhan",
+    "icons": {
+        "16": "darkMode.png",
+        "48": "darkMode.png",
+        "128": "darkMode.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://moodle.coep.org.in/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

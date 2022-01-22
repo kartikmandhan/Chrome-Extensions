@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Doodler",
+    "version": "0.1",
+    "description": "A extenstion that lets you doodle on any webpage of your choice.Developed by Kartik Mandhan ",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "p5.js",
+                "p5.dom.min.js",
+                "sketch.js"
+            ]
+        }
+    ]
+}
